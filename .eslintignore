@@ -1,0 +1,6 @@
+dist/
+scripts/
+cmd/
+src/proto/
+
+*.d.ts

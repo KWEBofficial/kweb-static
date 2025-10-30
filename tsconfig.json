@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    // "suppressImplicitAnyIndexErrors": true,
+    "jsx": "preserve",
+    "baseUrl": "src/",
+    "paths": {
+      "@public": ["public/"],
+      "@components/*": ["components/*"],
+      "@pages/*": ["pages/*"],
+      "@data/*": ["data/*"],
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/next.config.js"],
+  "exclude": ["node_modules", "src/utils/remove-consoles.js"]
+}
