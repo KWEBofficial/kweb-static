@@ -29,7 +29,7 @@ export const Footer: React.FC<FooterProps> = ({ isLandingPage }) => {
         &copy; Copyright. All rights reserved.
       </Text>
       <Text fontSize={'xs'} color={'gray.600'} textAlign={'center'}>
-        <Link href={'/contributors'} fontSize={'xs'} textDecor={'underline'} textAlign={'center'}>
+        <Link href={'contributors'} fontSize={'xs'} textDecor={'underline'} textAlign={'center'}>
           Developers
         </Link>
       </Text>
