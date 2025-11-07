@@ -10,7 +10,7 @@ const nextConfig = {
     output: 'export',
     trailingSlash: true,
     basePath: '/kweb-static',
-    assetPrefix: '/kweb-static/',
+    assetPrefix: '/kweb-static',
     images: {
       unoptimized: true
     }
