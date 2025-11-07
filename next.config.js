@@ -9,8 +9,8 @@ const nextConfig = {
   ...(process.env.NODE_ENV === 'production' && {
     output: 'export',
     trailingSlash: true,
-    basePath: '/kweb-static',
-    assetPrefix: '/kweb-static',
+    //basePath: '/kweb-static',
+    //assetPrefix: '/kweb-static',
     images: {
       unoptimized: true
     }
