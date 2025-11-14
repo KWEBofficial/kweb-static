@@ -1,5 +1,5 @@
-# kweb-view
-View for kweb website
+# kweb-static
+Static version of KWEB website
 
 ## 브랜치 전략
 
